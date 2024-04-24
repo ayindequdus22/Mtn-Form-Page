@@ -1,0 +1,137 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mtn Customer Service</title>
+</head>
+<link rel="stylesheet" href="css/bootstrap.css">
+<style>
+.navigator{
+    box-sizing: border-box;
+   box-shadow: 2px 2px 2px  rgba(182, 182, 5, 0.68);   
+  
+} 
+a:hover{
+    background-color: rgba(199, 199, 3, 0.68); 
+    border-radius: 8px;
+}
+
+body{
+    background-color: rgba(245, 245, 1, 0.68); 
+}
+
+.button{
+    background-color: rgba(245, 245, 1, 0.68); 
+  width:5em;
+  height:2.5em;
+}
+form{
+    background-color: white;
+    margin-top: 10em;
+    box-shadow: 2px 2px 2px 2px rgb(138, 135, 135);
+/* height: 60vh; */
+border-radius: 1em;
+}
+
+
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg  navigator navbar-light sticky-top">
+        <div class="container-fluid"> 
+         <img src="image/download.png" alt="Mtn" srcset="" height="50em" >
+  
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse justify-content-center" id="navmenu">
+        <ul class="navbar-nav ">
+          <li class="nav-item"><a href="" class="nav-link text-dark">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link text-dark">Data Plans</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link text-dark">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link text-dark">Contact</a>
+          </li>
+  
+        </ul>
+      </div>
+     </div>
+  
+       </nav>
+    <div class="forms container-fluid h-80">
+           <form action="" class="container h-70 needs-validation" novalidate>
+            <div class="row g-2 ">  
+                <div class="col-md mt-5"> 
+            <div class="form-floating">
+                <input type="text" class="form-control floatingInput" id="floatingInput1" placeholder="First Mame" required>
+                <label for="floatingInput">First Name</label>
+            
+            </div>
+        </div>
+        <div class="col-md mt-5"> 
+            <div class="form-floating">
+                <input type="email" class="form-control floatingInput" id="floatingInput2" placeholder="First Mame" required>
+                <label for="floatingInput2">Second Name</label>
+              </div>
+              </div>
+              </div>
+            <div class="details mt-2">
+                <div class="row g-2 ">  
+                <div class="col-md"> 
+            <div class="form-floating ">
+                <input type="tel" class="form-control" id="floatingInput3" placeholder="E-mail Address" required>
+                <label for="floatingInput3">Phone Number</label>
+            </div>
+            </div>
+            <div class="col-md"> 
+            <div class="form-floating ">
+                <input type="email" class="form-control" id="floatingInput4" placeholder="E-mail Address" required>
+                <label for="floatingInput4">E-mail Address</label>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="prioritity row g-2 mt-2">
+            <div class="col-md ">
+            <select name="Prioritity" id="" class="container-fluid h-100" required >
+                <option value="Problems" selected>Problems</option>
+                <option value="Data Issues">Data Issues</option>
+                <option value="Airtime Problem">Airtime Problem</option>
+                <option value="NIN Issues">NIN Issues</option>
+                <option value="Calling">Call Issues</option>
+            </select>
+        </div>
+        <div class="col-md">
+            <div class="form-floating">
+                <input type="email" class="form-control" id="floatingInput5" placeholder="NIN" required>
+                <label for="floatingInput5">NIN Address</label>
+            </div>
+        </div>
+        </div>
+        <div class="form-floating">
+            <input type="range" class="form-control mt-2 bg-light" id="floatingInput6" min="1" max="10" placeholder="" required>
+            <label for="floatingInput6">No SIMS</label>
+        </div>
+        <!-- <span class="one">1</span>
+        <span class="two">2</span>
+        <span class="three">3</span> -->
+        <div class="form-floating mt-2 container">
+            <textarea rows="50" cols="1000" name="comment" form="usrform" class="form-control" id="floatingInput7" placeholder="Enter Your Complaints" required>
+                </textarea>
+                <label for="floatingInput7">Enter Your Complaints</label>
+        </div>
+      <center><button type="submit" class="button btn mt-4">Submit</button></center>
+           </form>
+     
+        </div>
+        <script>
+
+        </script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
